@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Nunito:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100%;
+    background: rgb(205, 0, 255);
+    background: linear-gradient(90deg, rgba(205, 0, 255, 1) 0%, rgba(0, 140, 255, 1) 100%);
+}
+
+.container {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.827);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.48);
+}
+
+
+h1, p{
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 5px;
+}
+
